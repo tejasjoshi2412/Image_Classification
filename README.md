@@ -97,6 +97,7 @@ Epoch 15/15
 Accuracy and Loss for the Test Data:
 
 94/94 [==============================] - 7s 70ms/step - loss: 0.4910 - accuracy: 0.8340
+
 Out[13]:
 [0.49103549122810364, 0.8339999914169312]
 
