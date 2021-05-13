@@ -1,6 +1,7 @@
 # Image_Classification
 
 The project is based on the Intel Image Classification Dataset available of Kaggle. The Dataset includes the pictures of Buildings, Mountains, Glaciers, Street, Forest and Sea.
+The file also contains results for the project.
 
 Libraries used :
 1. Opencv
@@ -26,4 +27,51 @@ Steps for Execution:
 * To compile the model we used 'Adam' as an optimizer, 'categorical_crossentropy' as Loss Function and metric used was 'Accuracy'.
 
 5. The Model created was trained for 15 epochs which gave an Accuracy of around 87% reducing the Loss Function to 0.37.
-6. Made some predictions with images downloaded from Google as well as the prediction set provided int he Dataset. The predictions displayed are accurate as per the response given    out by the model.
+6. Made some predictions with images downloaded from Google as well as the prediction set provided int he Dataset. The predictions displayed are accurate as per the response given out by the model.
+
+**Results:
+
+Accuracy and loss for Training Data:
+
+Epoch 1/15
+439/439 [==============================] - 150s 337ms/step - loss: 1.4991 - accuracy: 0.3630
+Epoch 2/15
+439/439 [==============================] - 154s 351ms/step - loss: 1.0182 - accuracy: 0.5883
+Epoch 3/15
+439/439 [==============================] - 157s 356ms/step - loss: 0.8943 - accuracy: 0.6439
+Epoch 4/15
+439/439 [==============================] - 159s 363ms/step - loss: 0.7840 - accuracy: 0.6988
+Epoch 5/15
+439/439 [==============================] - 160s 364ms/step - loss: 0.7099 - accuracy: 0.7408
+Epoch 6/15
+439/439 [==============================] - 161s 367ms/step - loss: 0.6224 - accuracy: 0.7792
+Epoch 7/15
+439/439 [==============================] - 159s 362ms/step - loss: 0.5947 - accuracy: 0.7854
+Epoch 8/15
+439/439 [==============================] - 159s 363ms/step - loss: 0.5464 - accuracy: 0.8069
+Epoch 9/15
+439/439 [==============================] - 160s 364ms/step - loss: 0.5092 - accuracy: 0.8162
+Epoch 10/15
+439/439 [==============================] - 160s 364ms/step - loss: 0.4994 - accuracy: 0.8232
+Epoch 11/15
+439/439 [==============================] - 160s 364ms/step - loss: 0.4371 - accuracy: 0.8420
+Epoch 12/15
+439/439 [==============================] - 160s 365ms/step - loss: 0.4224 - accuracy: 0.8502
+Epoch 13/15
+439/439 [==============================] - 159s 362ms/step - loss: 0.4120 - accuracy: 0.8569
+Epoch 14/15
+439/439 [==============================] - 159s 362ms/step - loss: 0.3845 - accuracy: 0.8668
+Epoch 15/15
+439/439 [==============================] - 158s 360ms/step - loss: 0.3700 - accuracy: 0.8665
+
+Accuracy and Loss for the Test Data:
+
+94/94 [==============================] - 7s 70ms/step - loss: 0.4910 - accuracy: 0.8340
+Out[13]:
+[0.49103549122810364, 0.8339999914169312]
+
+
+
+
+
+
